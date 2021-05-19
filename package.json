@@ -1,0 +1,24 @@
+{
+  "name": "spiderapi",
+  "version": "1.0.0",
+  "description": "api about spiders",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/inputmeth0d/spiderapi.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon ./index.js",
+    "start": "node index.js"
+  },
+  "author": "maryklym",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/inputmeth0d/spiderapi/issues"
+  },
+  "homepage": "https://github.com/inputmeth0d/spiderapi#readme"
+}
