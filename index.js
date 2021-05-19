@@ -3,7 +3,7 @@ var fs = require('fs');
 // json file with the data
 var data = fs.readFileSync('SpiderData.json');
 
-var elements = JSON.parse(data);
+var spiders = JSON.parse(data);
 const express = require("express");
 const app = express();
 
