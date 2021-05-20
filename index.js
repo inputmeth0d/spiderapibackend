@@ -1,17 +1,12 @@
 var fs = require('fs');
-
-// json file with the data
 var data = fs.readFileSync('SpiderData.json');
-
 var spiders = JSON.parse(data);
 const express = require("express");
 const app = express();
-
-// To solve the cors issue
 const cors=require('cors');
 	
 app.listen(process.env.PORT,
-	() => console.log("Server Start at the Port"));
+	() => console.log("Server Start at 5000 Port"));
 	
 app.use(express.static('public'));
 app.use(cors());
@@ -40,6 +35,6 @@ function searchSpider(request, response) {
 			status:"Not Found"
 		}
 	}
-	
+	console.log(reply.boil);
 	response.send(reply);
 }
