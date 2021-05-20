@@ -1,0 +1,991 @@
+{
+    "black_lace_weaver":{
+        "id":1,
+        "species": "Amaurobius ferox",
+        "common-name": "Black Lace-Weaver",
+        "primary-colors": ["black", "white", "brown"],
+        "sighted-countries": ["Canada", "Ireland", "United Kingdom", "United States"],
+        "sighted-states": ["Connecticut", "Illinois", "Indiana", "Maryland", "Massachusetts", "Michigan", "New Hampshire", "New Jersey", "New York", "North Carolina", "Ohio", "Pennsylvania", "Virginia", "West Virginia", "Wisconsin"],
+        "is-venemous": true,
+        "bite-intensity": "mild (comparable to wasp sting)",
+        "bites-humans": true,
+        "female":{
+            "minSizemm":11,
+            "maxSizemm": 16
+        },
+        "male":{
+            "minSizemm": 8,
+            "maxSizemm": 10
+        }
+    },
+    "cross_orb_weaver":{
+        "id":2,
+        "species": "Araneus diadematus",
+        "common-name": "Cross Orb-weaver",
+        "primary-colors": ["brown", "tan", "white", "yellow", "red", "orange"],
+        "sighted-countries": ["Belgium", "Bulgaria", "Canada", "Denmark", "France", "Greece", "Ireland", "Netherlands", "Spain", "Turkey", "United Kingdom", "United States"],
+        "sighted-states": ["California", "Connecticut", "Illinois", "Indiana", "Maine", "Massachusetts", "Michigan", "New Hampshire", "New Jersey", "New York", "Ohio", "Oregon", "Rhode Island", "Vermont", "Washington", "Wisconsin"],
+        "is-venemous": true,
+        "bites-humans": true,
+        "bite-intensity": "mild",
+        "female":{
+            "minSizemm": 6.5,
+            "maxSizemm": 20
+        },
+        "male":{
+            "minSizemm": 5.5,
+            "maxSizemm": 13
+        }
+    },
+    "marbled_orb_weaver":{
+        "id":3,
+        "species": "Araneus marmoreus",
+        "common-name": "Marbled Orb-Weaver",
+        "primary-colors": ["black", "brown", "tan", "white", "yellow", "red", "orange"],
+        "sighted-countries": ["Canada", "Hungary", "United States"],
+        "sighted-states": ["Georgia", "Illinois", "Indiana", "Iowa", "Maine", "Maryland", "Massachusetts", "Minnesota", "Missouri", "Nebraska", "New Jersey", "New York", "North Carolina", "Ohio", "Pennsylvania", "South Carolina", "Virginia", "West Virginia", "Wisconsin"],
+        "is-venemous": false,
+        "bites-humans": false,
+        "bite-intensity": "no effect",
+        "female":{
+            "minSizemm": 9,
+            "maxSize": 20
+        },
+        "male":{
+            "minSizemm": 5,
+            "maxSize": 9
+        }
+    },
+    "butterfly_orb_weaver":{
+        "id":4,
+        "species": "Araneus pegnia",
+        "common-name": "Araneus pegnia",
+        "primary-colors": ["black", "brown", "gray", "tan", "white", "yellow", "red", "pink"],
+        "sighted-countries": ["Mexico", "United States"],
+        "sighted-states": ["Alabama", "Florida", "Georgia", "Ohio", "Texas", "Virginia", "West Virginia"],
+        "is-venemous": false,
+        "bites-humans": true,
+        "bite-intensity": "no effect",
+        "female":{
+            "minSizemm": 6,
+            "maxSizemm": 10
+        },
+        "male":{
+            "minSizemm": 5,
+            "maxSizemm": 9
+        }
+    },
+    "Shamrock_orb_weaver":{
+        "id": 5,
+        "species": "Araneus trifolium",
+        "common-name": "Shamrock Orb-weaver",
+        "primary-colors":["black", "brown", "gray", "white", "yellow", "red", "orange"],
+        "sighted-countries":["Canada", "United States"],
+        "sighted-states":["Illinois", "Indiana", "Maine", "Michigan", "Minnesota", "New Hampshire", "New York", "Ohio", "Pennsylvania", "Virginia", "Wisconsin"],
+        "is-venemous": true,
+        "bites-humans": true,
+        "bite-intensity": "mild",
+        "female":{
+            "minSizemm": 6,
+            "maxSizemm": 20
+        },
+        "male":{
+            "minSizemm": 5,
+            "maxSizemm": 13
+        }
+    },
+    "black_and_yellow_garden_spider":{
+        "id": 6,
+        "species": "Argiope aurantia",
+        "common-name": "Black and yellow garden spider",
+        "primary-colors": ["black", "brown", "tan", "white", "yellow", "silver"],
+        "sighted-countries": ["Mexico", "United States"],
+        "sighted-states": ["Alabama", "Arkansas", "Connecticut", "Delaware", "Florida", "Georgia", "Illinois", "Indiana", "Iowa", "Kansas", "Kentucky", "Louisiana", "Maine", "Maryland", "Massachusetts", "Michigan", "Minnesota", "Mississippi", "Nebraska", "New York", "North Carolina", "Ohio", "Oklahoma", "Pennsylvania", "Rhode Island", "South Carolina", "Tennessee", "Texas", "Virginia", "West Virginia", "Wisconsin"],
+        "is-venemous": true,
+        "bites-humans": true,
+        "bite-intensity": "mild",
+        "female":{
+            "minSizemm":19,
+            "maxSizemm": 28
+        },
+        "male":{
+            "minSizemm": 5,
+            "maxSizemm": 9
+        }
+    },
+    "banded_garden_spider":{
+        "id": 7,
+        "species":"argiope trfasciata",
+        "common-name": "Banded garden spider",
+        "primary-colors": ["black", "brown", "white", "yellow", "silver","orange"],
+        "sighted-countries": ["Australia", "Canada", "Cyprus", "Israel", "Mexico", "Portugal", "Puerto Rico", "South Africa", "Spain", "United States"],
+        "sighted-states": ["Arizona", "California", "Colorado", "Connecticut", "Florida", "Georgia", "Idaho", "Illinois", "Kentucky", "Maine", "Massachusetts", "Michigan", "Minnesota", "Missouri", "Montana", "Nevada", "New Hampshire", "New Mexico", "North Dakota", "Ohio", "Pennsylvania", "South Carolina", "Texas", "Utah", "Virginia", "Washington", "Wisconsin", "Wyoming"],
+        "is-venemous": true,
+        "bites-humans": true,
+        "bite-intensity": "mild",
+        "female":{
+            "minSizemm":15,
+            "maxSizemm": 25
+        },
+        "male":{
+            "minSizemm": 5,
+            "maxSizemm": 8
+        }
+    },
+    "ground-sac-spider":{
+        "id": 8,
+        "species": "castianeira longipalpa",
+        "common-name": "Ground Sac Spider",
+        "primary-colors": ["black", "brown", "gray", "white", "yellow", "red"],
+        "sighted-countries":["Canada", "United States"],
+        "sighted-states": ["Georgia", "Kentucky", "Massachusetts", "Mississippi", "North Carolina", "Ohio", "Oregon", "Pennsylvania", "Virginia"],
+        "is-venemous": true,
+        "bites-humans": true,
+        "bite-intensity": "no effect",
+        "female":{
+            "minSizemm": 5,
+            "maxSizemm": 10
+        },
+        "male":{
+            "minSizemm": 5, 
+            "maxSizemm": 10 
+        }
+    },
+    "long_legged_sac_spider":{
+        "id": 9,
+        "species": "cheiracanthium mildei",
+        "common-name": "long legged sac spider",
+        "primary-colors": ["tan", "yellow"],
+        "sighted-countries": ["Canada", "Czech Republic", "Italy", "United States"],
+        "sighted-states": ["California", "Colorado", "Connecticut", "Idaho", "Illinois", "Indiana", "Kansas", "Maine", "Maryland", "Massachusetts", "Michigan", "Minnesota", "Missouri", "Nebraska", "New Hampshire", "New Jersey", "New York", "Ohio", "Oklahoma", "Oregon", "Pennsylvania", "Tennessee", "Utah", "Vermont", "Virginia", "Washington", "West Virginia", "Wisconsin"],
+        "is-venemous": true,
+        "bites-humans": true,
+        "bite-intensity": "moderate-severe",
+        "female":{
+            "minSizemm": 5,
+            "maxSizemm": 10
+        },
+        "male":{
+            "minSizemm": 5,
+            "maxSizemm": 10
+        }
+    },
+    "sylvana_jumping_spider":{
+        "id": 10,
+        "species": "Colonus syvanus",
+        "common-name": "Sylvana Jumping Spider",
+        "primary-colors": ["black", "brown", "tan", "white", "yellow", "green", "red", "orange"],
+        "sighted-countries": ["United States"],
+        "sighted-states": ["Alabama", "Florida", "Georgia", "Mississippi", "New Jersey", "Ohio", "South Carolina", "Texas"],
+        "is-venemous": true,
+        "bites-humans": true,
+        "bite-intensity": "mild",
+        "female":{
+            "minSizemm":3,
+            "maxSizemm": 15
+        },
+        "male":{
+            "minSizemm": 3,
+            "maxSizemm": 15
+        }
+    },
+    "trashline-orb-weaver":{
+        "id": 11,
+        "species": "Cyclosa turbinata",
+        "common-name": "Trashline Orbweaver",
+        "primary-colors": ["black", "brown", "gray","tan", "white", "yellow"],
+        "sighted-countries":["United States"],
+        "sighted-states": ["Alabama", "Florida", "Ohio", "Tennessee", "Utah", "Virginia"],
+        "is-venemous": true,
+        "bites-humans": true,
+        "bite-intensity": "mild-moderate",
+        "female":{
+            "minSizemm": 3.3,
+            "maxSizemm": 5.2
+        },
+        "male":{
+            "minSizemm": 2.5,
+            "maxSizemm": 3.3
+        }
+    },
+    "striped_fishing_spider":{
+        "id": 12,
+        "species": "Dolomedes scriptus",
+        "common-name": "Striped Fishing Spider",
+        "primary-colors": ["black", "brown", "gray", "tan", "white"],
+        "sighted-countries": ["United States"],
+        "sighted-states": ["Alabama", "Colorado", "Connecticut", "Kentucky", "Minnesota", "New Hampshire", "New York", "Ohio", "Virginia", "Wisconsin"],
+        "is-venemous": true,
+        "bites-humans": true,
+        "bite-intensity": "mild",
+        "female":{
+            "minSizemm": 15,
+            "maxSizemm": 26
+        },
+        "male":{
+            "minSizemm": 7,
+            "maxSizemm": 13
+        }
+    },
+    "dark_fishing_spider":{
+        "id":13,
+        "species": "Dolomedes tenebrosus", 
+        "common-name": "Dark Fishing Spider",
+        "primary-colors": ["black", "brown", "gray", "tan"],
+        "sighted-countries": ["Canada", "Pakistan", "United States"],
+        "sighted-states": ["Alabama", "Arkansas", "Connecticut", "Delaware", "Georgia", "Illinois", "Indiana", "Iowa", "Kansas", "Kentucky", "Louisiana", "Maine", "Maryland", "Massachusetts", "Michigan", "Minnesota", "Missouri", "Nebraska", "New Hampshire", "New Jersey", "New York", "North Carolina", "Ohio", "Oklahoma", "Pennsylvania", "Rhode Island", "South Carolina","Tennessee", "Texas", "Vermont", "Virginia", "West Virginia", "Wisconsin"],
+        "is-venemous":true,
+        "bites-humans": true,
+        "bite-intensity": "mild",
+        "female":{
+            "minSizemm":14,
+            "maxSizemm": 24
+        },
+        "male":{
+            "minSizemm":6.8,
+            "maxSizemm": 12
+        }
+    },
+    "six_spotted_fishing_spider":{
+        "id": 14,
+        "species": "Dolomedes triton",
+        "common-name": "Six-spotted Fishing Spider",
+        "primary-colors": ["brown", "tan", "white"],
+        "sighted-countries": ["United States"],
+        "sighted-states": ["Alabama", "Alaska", "Connecticut", "Florida", "Georgia", "Indiana", "Kentucky", "Louisiana", "Maine", "Maryland", "Massachusetts", "Michigan", "New Hampshire", "New Jersey", "North Carolina", "Ohio", "Pennsylvania", "South Carolina", "Texas", "Vermont", "Virginia", "Wisconsin"],
+        "is-venemous": true,
+        "bites-humans": true,
+        "bite-intensity": "mild",
+        "female":{
+            "minSizemm":15,
+            "maxSizemm": 20
+        },
+        "male":{
+            "minSizemm": 9,
+            "maxSizemm":13
+        }
+    },
+    "woodlouse_hunter":{
+        "id": 15,
+        "species": "Dysdera crocata",
+        "common-name":"Woodlouse Hunter",
+        "primary-colors": ["gray", "tan", "red", "orange"],
+        "sighted-countries": ["Canada", "Mexico", "Netherlands", "United Kingdom", "United States"],
+        "sighted-states": ["Alabama", "Arizona", "California", "Colorado", "Illinois", "Indiana", "Iowa", "Kansas", "Kentucky", "Maryland", "Massachusetts", "Michigan", "Minnesota", "Mississippi", "Nebraska", "Nevada", "New Jersey", "New York", "North Carolina", "Ohio", "Oklahoma", "Oregon", "Pennsylvania", "Tennessee", "Texas", "Utah", "Virginia", "Washington", "West Virginia", "Wisconsin"],
+        "is-venemous": true,
+        "bites-humans": true,
+        "bite-intensity": "mild",
+        "female":{
+            "minSizemm": 11,
+            "maxSizemm": 15
+        },
+        "male":{
+            "minSizemm": 9,
+            "maxSizemm": 10
+        }
+    },
+    "bowl_and_doily_weaver":{
+        "id": 16,
+        "species": "Frontinella pyramitela",
+        "common-name": "Bowl and Doily Weaver",
+        "primary-colors": ["black", "brown", "white", "yellow"],
+        "sighted-countries":["United States"],
+        "sighted-states":["Alabama", "Indiana", "Maryland", "Ohio", "South Carolina"],
+        "is-venemous": true,
+        "bites-humans": false,
+        "bite-intensity": "no effect",
+        "female":{
+            "minSizemm": 3,
+            "maxSizemm": 4
+        },
+        "male":{
+            "minSizemm": 3,
+            "maxSizemm": 3.3
+        }
+    },
+    "white-jawed-jumping-spider":{
+        "id": 17,
+        "species": "Hentzia mitrata",
+        "common-name": "White-Jawed Jumping Spider",
+        "primary-colors": ["brown", "gray", "tan", "white", "yellow", "orange"],
+        "sighted-countries": ["United States"],
+        "sighted-states": ["Alabama", "Georgia", "Maine", "Michigan", "New Hampshire", "New Jersey", "Ohio", "Pennsylvania", "Tennessee", "Virginia"],
+        "is-venemous": false,
+        "bites-humans": true,
+        "bite-intensity": "no effect, uncommon to bite",
+        "female":{
+            "minSizemm":2.9,
+            "maxSizemm": 4.5
+        },
+        "male":{
+            "minSizemm": 3.5,
+            "maxSizemm": 4.1
+        }
+    },
+    "hentz_jumping_spider":{
+        "id": 18,
+        "species": "Hentzia palmarum",
+        "common-name":"Hentz Jumping Spider",
+        "primary-colors":["black", "brown", "tan", "white", "red"],
+        "sighted-countries":["Canada", "United States"],
+        "sighted-states":["Alabama", "Florida", "Louisiana", "Ohio", "Texas"],
+        "is-venemous": true,
+        "bites-humans": true,
+        "bite-intensity": "mild",
+        "female":{
+            "minSizemm":4.7,
+            "maxSizemm":6.1
+        },
+        "male":{
+            "minSizemm": 4.0,
+            "maxSizemm": 5.3
+        }
+    },
+    "eastern-parson-spider":{
+        "id": 19,
+        "species": "Herpyllus ecclesiasticus",
+        "common-name": "Eastern Parson Spider",
+        "primary-colors": ["black", "brown", "gray", "tan"],
+        "sighted-countries":["Canada", "United States"],
+        "sighted-states":["Alabama", "Colorado", "Connecticut", "Florida", "Georgia", "Illinois", "Indiana", "Iowa", "Kansas", "Maine", "Maryland", "Massachusetts", "Michigan", "Minnesota", "Missouri", "Nebraska", "New Hampshire", "New Jersey", "New York", "North Carolina", "Ohio", "Pennsylvania", "South Carolina", "Tennessee", "Texas", "Virginia", "West Virginia", "Wisconsin"],
+        "is-venemous": false,
+        "bites-humans": true,
+        "bite-intensity": "mild",
+        "female":{
+            "minSizemm": 6.5,
+            "maxSizemm": 13
+        },
+        "male":{
+            "minSizemm":4.5,
+            "maxSizemm":6.5
+        }
+    },
+    "huntsman-spider":{
+        "id": 20,
+        "species": "Heteropoda venatoria",
+        "common-name": "Huntsman Spider",
+        "primary-colors": ["black", "brown", "tan"],
+        "sighted-countries":["Bahamas", "Belize", "Brazil", "Denmark", "Ecuador", "Honduras", "Hong Kong", "India", "Indonesia", "Mexico", "Peru", "Puerto Rico", "Thailand", "United States", "Venezuela"],
+        "sighted-states": ["California", "Florida", "Georgia", "Hawaii", "Ohio", "Texas"],
+        "is-venemous": true,
+        "bites-humans": true,
+        "bite-intensity": "severe",
+        "female":{
+            "minSizemm": 70,
+            "maxSizemm": 100
+        },
+        "male":{
+            "minSizemm": 70,
+            "maxSizemm": 100
+        }
+    },
+    "garden_ghost_spider":{
+        "id": 21,
+        "species":"hibana gracilis",
+        "common-name":"Garden Ghost Spider",
+        "primary-colors": ["brown", "tan", "yellow", "orange"],
+        "sighted-countries":["United States"],
+        "sighted-states":["Connecticut", "Kansas", "Maryland", "Massachusetts", "New Hampshire", "New Jersey", "New York", "Ohio", "Pennsylvania", "Tennessee", "Virginia"],
+        "is-venemous": true,
+        "bites-humans": true,
+        "bite-intensity": "mild",
+        "female":{
+            "minSizemm": 7,
+            "maxSizemm": null
+        },
+        "male":{
+            "minSizemm": 7,
+            "maxSizemm": null
+        }
+
+    },
+    "hogna-baltimoriana":{
+        "id": 22,
+        "species": "Hogna baltimoriana",
+        "common-name": "Hogna baltimoriana",
+        "primary-colors": ["black", "brown", "gray", "tan"],
+        "sighted-countries":["United States"],
+        "sighted-states":["Indiana", "Kansas", "Maine", "Michigan", "Nebraska", "New Hampshire", "New Jersey", "New York", "Ohio", "Oklahoma", "Rhode Island", "Texas"],
+        "is-venemous": true,
+        "bites-humans": false,
+        "bite-intensity": "mild",
+        "female":{
+            "minSizemm": 22,
+            "maxSizemm": 120
+        },
+        "male":{
+            "minSizemm": 22,
+            "maxSizemm": 120
+        }
+    },
+    "furrow-orb-weaver":{
+        "id": 23,
+        "species": "Larinioides cornutus",
+        "common-name":"Furrow Orb-weaver",
+        "primary-colors": ["brown", "tan", "red"],
+        "sighted-countries":["United Kingdom", "United States"],
+        "sighted-states":["Alabama", "Connecticut", "Delaware", "Georgia", "Illinois", "Indiana", "Iowa", "Kentucky", "Louisiana", "Maine", "Maryland", "Massachusetts", "Michigan", "Mississippi", "Missouri", "New Hampshire", "New Jersey", "New York", "North Carolina", "Ohio", "Oklahoma", "Pennsylvania", "Tennessee", "Texas", "Virginia", "West Virginia", "Wisconsin"],
+        "is-venemous": true,
+        "bites-humans": false,
+        "bite-intensity": "very mild",
+        "female":{
+            "minSizemm": 6,
+            "maxSizemm": 14
+        },
+        "male":{
+            "minSizemm": 4.8,
+            "maxSizemm": 8.8
+        }
+    },
+    "orchard-orb-weaver":{
+        "id": 24,
+        "species": "Leucauge venusta",
+        "common-name": "Orchard Orb-weaver",
+        "primary-colors":["black", "tan", "white", "yellow", "green", "silver", "orange"],
+        "sighted-countries":["United States"],
+        "sighted-states":["Alabama", "Georgia", "Illinois", "Indiana", "Louisiana", "Maryland", "Massachusetts", "Michigan", "Missouri", "New Hampshire", "New Jersey", "New York", "North Carolina", "Ohio", "Oklahoma", "Pennsylvania", "South Carolina", "Tennessee", "Texas", "Virginia", "Washington D.C.", "West Virginia", "Wisconsin"],
+        "is-venemous": true,
+        "bites-humans": false,
+        "bite-intensity": "no effect",
+        "female":{
+            "minSizemm": 5.5,
+            "maxSizemm": 7.5
+        },
+        "male":{
+            "minSizemm": 3.5,
+            "maxSizemm": 4
+        }
+    },
+    "dimorphic-jumper":{
+        "id":25,
+        "species":"Maevia inclemens",
+        "common-name": "Dimorphic Jumper",
+        "primary-colors": ["black", "brown", "gray", "tan", "white", "red", "orange"],
+        "sighted-countries":["United States"],
+        "sighted-states": ["Alabama", "Connecticut", "Kentucky", "Louisiana", "Maine", "Maryland", "Michigan", "New Hampshire", "New Jersey", "New York", "Ohio", "Oklahoma", "Pennsylvania", "Rhode Island", "Texas"],
+        "is-venemous": false,
+        "bites-humans": false,
+        "bite-intensity": "no effect",
+        "female":{
+            "minSizemm": 6.5,
+            "maxSizemm": 10
+        },
+        "male":{
+            "minSizemm": 4.8,
+            "maxSizemm": 7
+        }
+    },
+    "tuftlegged-orbweaver":{
+        "id":26,
+        "species":"Mangora placida",
+        "common-name": "Tuftlegged Orbweaver",
+        "primary-colors": ["black", "brown", "tan", "white"],
+        "sighted-countries":["United States"],
+        "sighted-states":["Alabama", "Ohio", "South Carolina", "Wisconsin"],
+        "is-venemous": true,
+        "bites-humans": false,
+        "bite-intensity": "mild",
+        "female":{
+            "minSizemm": 2.3,
+            "maxSizemm":4.5
+        },
+        "male":{
+            "minSizemm":2.0,
+            "maxSizemm":2.8
+        }
+    },
+    "spined-micrathena":{
+        "id":27,
+        "species":"Micrathena gracilis",
+        "common-name": "Spined Micrathena",
+        "primary-colors":["black", "white", "yellow", "red"],
+        "sighted-countries":["United States"],
+        "sighted-states":["Alabama", "Indiana", "Massachusetts", "New York", "North Carolina", "Ohio", "Pennsylvania", "South Carolina", "Virginia"],
+        "is-venemous": false,
+        "bites-humans": false,
+        "bite-intensity": "no effect",
+        "female":{
+            "minSizemm": 7.5,
+            "maxSizemm": 10
+        },
+        "male":{
+            "minSizemm": 4.5,
+            "maxSizemm": 5
+        }
+    },
+    "arrow-shaped-micrathena":{
+        "id": 28,
+        "species":"Micrathena sagittata",
+        "common-name": "Arrow-shaped Micrathena",
+        "primary-colors": ["black", "brown", "tan", "white", "yellow", "red", "orange"],
+        "sighted-countries": ["United States"],
+        "sighted-states": ["Alabama", "Florida", "Georgia", "Kentucky", "Massachusetts", "New Jersey", "New York", "Ohio", "Pennsylvania", "South Carolina", "South Dakota", "Texas", "Virginia", "Washington D.C.", "Wisconsin"],
+        "is-venemous": false,
+        "bites-humans": false,
+        "bite-intensity": "no effect",
+        "female":{
+           "minSizemm": 8,
+           "maxSizemm": 9 
+        },
+        "male":{
+            "minSizemm": 4,
+            "maxSizemm": 5
+        }
+    },
+    "white-banded-crab-spider":{
+        "id": 29,
+        "species": "Misumenoides formosipes",
+        "common-name": "White-banded Crab Spider",
+        "primary-colors": ["black", "white", "yellow", "green", "red", "orange", "pink"],
+        "sighted-countries":["United States"],
+        "sighted-states":["California", "Illinois", "Kansas", "Kentucky", "Massachusetts", "Michigan", "Nebraska", "Ohio", "Oklahoma", "Tennessee", "Wisconsin"],
+        "is-venemous": true,
+        "bites-humans": false,
+        "bite-intensity": "no effect",
+        "female":{
+            "minSizemm": 5.0,
+            "maxSizemm": 11.3
+        },
+        "male":{
+            "minSizemm": 2.5,
+            "maxSizemm": 3.2
+        }
+    },
+    "myrmarachne-formicaria":{
+        "id": 30,
+        "species": "Myrmarachne formicaria",
+        "common-name": "Myrmarachne formicaria",
+        "primary-colors":["black", "brown", "orange"],
+        "sighted-countries": ["United States"],
+        "sighted-states": ["Ohio"],
+        "is-venemous": true,
+        "bites-humans": true,
+        "bite-intensity": "mild",
+        "female":{
+            "minSizemm":4.75,
+            "maxSizemm": 6.1
+        },
+        "male":{
+            "minSizemm": 5.0,
+            "maxSizemm": 6.5
+        }
+    },
+    "hentz-orb-weaver":{
+        "id": 31,
+        "species": "Neoscona crucifera",
+        "common-name": "Hentz Orb-weaver",
+        "primary-colors": ["black", "brown", "gray", "tan", "white", "red", "orange"],
+        "sighted-countries":["United States"],
+        "sighted-states":["Alabama", "California", "Colorado", "Connecticut", "Delaware", "Georgia", "Hawaii", "Illinois", "Indiana", "Kansas", "Kentucky", "Louisiana", "Maryland", "Massachusetts", "Michigan", "Minnesota", "Mississippi", "Missouri", "New Hampshire", "New Jersey", "New York", "North Carolina", "Ohio", "Oklahoma", "Pennsylvania", "South Carolina", "Tennessee", "Texas", "Virginia", "West Virginia", "Wisconsin"],
+        "is-venemous": false,
+        "bites-humans": false,
+        "bite-intensity": "no effect",
+        "female":{
+            "minSizemm": 9,
+            "maxSizemm": 20
+        },
+        "male":{
+            "minSizemm": 5,
+            "maxSizemm": 15
+        }
+    },
+    "pachygnatha-autumnalis":{
+        "id": 32,
+        "species": "Pachygnatha autumnalis",
+        "common-name": "Pachygnatha autumnalis",
+        "primary-colors": ["black", "brown", "tan", "white", "orange"],
+        "sighted-countries":["United States"],
+        "sighted-states":["Ohio"],
+        "is-venemous": false,
+        "bites-humans": false,
+        "bite-intensity": "no effect",
+        "female":{
+            "minSizemm": 5,
+            "maxSizemm": 15
+        },
+        "male":{
+            "minSizemm": 4,
+            "maxSizemm": 8
+        }
+    },
+    "emerald-jumping-spider":{
+        "id": 33,
+        "species": "Paraphidippus aurantius",
+        "common-name": "Emerald Jumping Spider",
+        "primary-colors": ["black", "gray", "tan", "white", "yellow", "green", "orange"],
+        "sighted-countries":["United States"],
+        "sighted-states":["Alabama", "Connecticut", "Indiana", "Kentucky", "New Jersey", "New York", "North Carolina", "Ohio", "Virginia"],
+        "is-venemous": true,
+        "bites-humans": true,
+        "bite-intensity": "mild",
+        "female":{
+            "minSizemm": 8,
+            "maxSizemm": 12
+        },
+        "male":{
+            "minSizemm": 7,
+            "maxSizemm": 10
+        }
+    },
+    "common-house-spider":{
+        "id": 34,
+        "species": "Parasteatoda tepidariorum",
+        "common-name": "Common House Spider",
+        "primary-colors": ["black", "brown", "tan", "red", "orange"],
+        "sighted-countries":["Canada", "Spain", "United States"],
+        "sighted-states":["Alabama", "California", "Georgia", "Illinois", "Indiana", "Iowa", "Kentucky", "Louisiana", "Maine", "Maryland", "Mississippi", "Missouri", "New Hampshire", "New York", "Ohio", "Oregon", "Pennsylvania", "Rhode Island", "South Carolina", "Tennessee", "Texas", "Virginia", "Washington", "West Virginia", "Wisconsin"],
+        "is-venemous": true,
+        "bites-humans": true,
+        "bite-intensity": "mild",
+        "female":{
+            "minSizemm": 5,
+            "maxSizemm": 8
+        },
+        "male":{
+            "minSizemm": 3.8,
+            "maxSizemm": 4.7
+        }
+    },
+    "bold-jumper":{
+        "id": 35,
+        "species": "Phidippus audax",
+        "common-name":"Bold Jumper",
+        "primary-colors":["black", "white", "yellow", "green", "blue", "purple", "orange", "pink"],
+        "sighted-countries":["Canada", "United States"],
+        "sighted-states": ["Arkansas", "California", "Colorado", "Connecticut", "Georgia", "Idaho", "Illinois", "Indiana", "Iowa", "Kansas", "Kentucky", "Louisiana", "Maine", "Maryland", "Massachusetts", "Michigan", "Minnesota", "Missouri", "Nebraska", "Nevada", "New Hampshire", "New Jersey", "New Mexico", "New York", "North Carolina", "North Dakota", "Ohio", "Oklahoma", "Oregon", "Pennsylvania", "Rhode Island", "South Carolina", "Tennessee", "Texas", "Utah", "Vermont", "Virginia", "Washington", "Washington D.C.", "West Virginia", "Wisconsin", "Wyoming"],
+        "is-venemous": true,
+        "bites-humans": false,
+        "bite-intensity": "mild",
+        "female":{
+            "minSizemm": 8,
+            "maxSizemm": 15
+        },
+        "male":{
+            "minSizemm":6,
+            "maxSizemm":13
+        }
+    },
+    "long-bodied-cellar-spider":{
+        "id": 36,
+        "species": "Pholcus phalangioides",
+        "common-name": "Long-bodied Cellar Spider",
+        "primary-colors": ["brown", "gray", "tan", "white"],
+        "sighted-countries": ["Canada", "South Africa", "Spain", "United Kingdom", "United States"],
+        "sighted-states": ["Alabama", "Arkansas", "California", "Connecticut", "Georgia", "Louisiana", "Maine", "Maryland", "Massachusetts", "Michigan", "Missouri", "New Hampshire", "New York", "North Carolina", "North Dakota", "Ohio", "Oregon", "Pennsylvania", "Texas", "Washington", "Washington D.C."],
+        "is-venemous": true,
+        "bites-humans": false,
+        "bite-intensity": "no effect",
+        "female":{
+            "minSizemm": 7,
+            "maxSizemm": 8
+        },
+        "male":{
+            "minSizemm": 6,
+            "maxSizemm": 7
+        }
+    },
+    "nursery-web-spider":{
+        "id":37,
+        "species": "Pisaurina mira",
+        "common-name": "Nursery Web Spider",
+        "primary-colors": ["brown", "tan"],
+        "sighted-countries":["Canada", "United States"],
+        "sighted-states":["Alabama", "Arkansas", "Connecticut", "Delaware", "Florida", "Georgia", "Illinois", "Indiana", "Kansas", "Kentucky", "Louisiana", "Maine", "Maryland", "Massachusetts", "Michigan", "Minnesota", "Mississippi", "Missouri","New Hampshire", "New Jersey", "New York", "North Carolina", "Ohio", "Oklahoma", "Pennsylvania", "Rhode Island", "South Carolina", "Tennessee", "Texas", "Vermont", "Virginia", "West Virginia", "Wisconsin"],
+        "is-venemous": true,
+        "bites-humans": false,
+        "bite-intensity": "very mild",
+        "female":{
+            "minSizemm": 12,
+            "maxSizemm": 15
+        },
+        "male":{
+            "minSizemm": 9,
+            "maxSizemm": 15
+        }
+    },
+    "hammock-spider":{
+        "id":38,
+        "species": "Pityohyphantes costatus",
+        "common-name": "Hammock Spider",
+        "primary-colors": ["brown", "tan", "white", "yellow"],
+        "sighted-countries":["United States"],
+        "sighted-states":["New Hampshire", "New York", "Ohio", "Wisconsin"],
+        "is-venemous": true,
+        "bites-humans": false,
+        "bite-intensity": "no effect",
+        "female":{
+            "minSizemm": 5,
+            "maxSizemm": 7
+        },
+        "male":{
+            "minSizemm": 3.7,
+            "maxSizemm": 5.5
+        }
+    },
+    "tan-jumping-spider":{
+        "id": 39,
+        "species": "Platycryptus undatus",
+        "common-name":"Tan Jumping Spider",
+        "primary-colors":["black", "gray", "tan", "white", "orange"],
+        "sighted-countries":["Canada", "United States"],
+        "sighted-states": ["Alabama", "Georgia", "Illinois", "Indiana", "Kansas", "Kentucky", "Louisiana", "Maine", "Maryland", "Massachusetts", "Michigan", "Mississippi", "Missouri", "New Hampshire", "New Jersey", "New York", "North Carolina", "Ohio", "Oklahoma", "Pennsylvania", "South Carolina", "Tennessee", "Texas", "Vermont", "Virginia", "Washington D.C.", "West Virginia", "Wisconsin"],
+        "is-venemous": true,
+        "bites-humans": false,
+        "bite-intensity": "mild",
+        "female":{
+            "minSizemm": 10,
+            "maxSizemm": 13
+        },
+        "male":{
+            "minSizemm": 8.5,
+            "maxSizemm": 9.5
+        }
+    },
+    "asian-wall-jumping-spider":{
+        "id": 40,
+        "species": "Sitticus fasciger",
+        "common-name": "Asian Wall Jumping Spider",
+        "primary-colors": ["black", "brown", "gray", "tan", "white"],
+        "sighted-countries":["United States"],
+        "sighted-states":["Maine", "Michigan", "New York", "Ohio", "Wisconsin"],
+        "is-venemous": true,
+        "bites-humans": false,
+        "bite-intensity": "mild",
+        "female":{
+            "minSizemm": 5,
+            "maxSizemm": 6
+        },
+        "male":{
+            "minSizemm": 4,
+            "maxSizemm": 5
+        }
+    },
+    "triangulate-cobweb-spider":{
+        "id": 41,
+        "species": "Steatoda triangulosa",
+        "common-name": "Triangulate Cobweb Spider",
+        "primary-colors":["brown", "tan", "yellow", "white"],
+        "sighted-countries":["Austria", "Canada", "Germany", "Italy", "Slovakia", "Spain", "Turkey", "United States"],
+        "sighted-states":["Alabama", "Arizona", "Arkansas", "California", "Colorado", "Connecticut", "Florida", "Georgia", "Idaho", "Illinois", "Indiana", "Iowa", "Kansas", "Kentucky", "Louisiana", "Maryland", "Massachusetts", "Michigan", "Minnesota", "Missouri", "Nebraska", "New Hampshire", "New Jersey", "New York", "North Carolina", "Ohio", "Oklahoma", "Oregon", "Pennsylvania", "Rhode Island", "South Carolina", "South Dakota", "Tennessee", "Texas", "Utah","Virginia", "Washington", "West Virginia", "Wisconsin"],
+        "is-venemous": true,
+        "bites-humans": false,
+        "bite-intensity": "mild",
+        "female":{
+            "minSizemm": 3.6,
+            "maxSizemm": 5.9
+        },
+        "male":{
+            "minSizemm": 3.5,
+            "maxSizemm": 4.7
+        }
+    },
+    "barn-funnel-weaver":{
+        "id": 42,
+        "species": "Tegenaria domestica",
+        "common-name": "Barn Funnel Weaver",
+        "primary-colors": ["black", "brown", "tan"],
+        "sighted-countries":["Canada", "Denmark", "Finland", "United States"],
+        "sighted-states":["Colorado", "Connecticut", "Hawaii", "Idaho", "Indiana", "Michigan", "Minnesota", "Missouri", "Montana", "New York", "North Carolina", "Ohio", "Oregon", "Pennsylvania", "South Dakota", "Utah", "Vermont", "Washington", "Wisconsin"],
+        "is-venemous": true,
+        "bites-humans": false,
+        "bite-intensity": "very mild",
+        "female":{
+            "minSizemm": 7.5,
+            "maxSizemm": 11.5
+        },
+        "male":{
+            "minSizemm": 6.0,
+            "maxSizemm": 9.0
+        }
+    },
+    "tiger-wolf-spider":{
+        "id": 43,
+        "species": "Tigrosa aspersa",
+        "common-name": "Tiger Wolf Spider",
+        "primary-colors": ["black", "brown", "tan"],
+        "sighted-countries": ["United States"],
+        "sighted-states": ["Arkansas", "Georgia", "Indiana", "Iowa", "Kentucky", "Michigan", "Missouri", "Nebraska", "New Jersey", "New York", "North Carolina", "Ohio", "Tennessee", "Virginia", "West Virginia", "Wisconsin"],
+        "is-venemous": false,
+        "bites-humans": false,
+        "bite-intensity": "no effect - very mild",
+        "female":{
+            "minSizemm": 10,
+            "maxSizemm": 35
+        },
+        "male":{
+            "minSizemm": 10,
+            "maxSizemm": 35
+        }
+    },
+    "tigrosa-georgicola":{
+        "id": 44,
+        "species": "Tigrosa georgicola",
+        "common-name": "Tigrosa Georgicola",
+        "primary-colors":["brown", "gray", "tan"],
+        "sighted-countries":["United States"],
+        "sighted-states":["Alabama", "Arkansas", "Florida", "Georgia", "Illinois", "Indiana", "Kansas", "Kentucky", "Louisiana", "Maryland", "Mississippi", "Missouri", "New York", "North Carolina", "Ohio", "Oklahoma", "South Carolina", "Tennessee", "Texas", "Virginia", "West Virginia"],
+        "is-venemous": false,
+        "bites-humans": false,
+        "bite-intensity": "no effect",
+        "female":{
+            "minSizemm": 16,
+            "maxSizemm": 22
+        },
+        "male":{
+            "minSizemm": 10,
+            "maxSizemm": 17
+        }
+    },
+    "wetland-giant-wolf-spider":{
+        "id": 45,
+        "species": "Tigrosa helluo",
+        "common-name": "Wetland Giant Wolf Spider",
+        "primary-colors": ["brown", "gray", "tan"],
+        "sighted-countries":["Canada", "United States"],
+        "sighted-states":["Connecticut", "Delaware", "Illinois", "Indiana", "Iowa", "Kansas", "Kentucky", "Maine", "Maryland", "Massachusetts", "Michigan", "Missouri", "Nebraska", "New Jersey", "New York", "North Carolina", "Ohio", "Oklahoma", "Pennsylvania", "Rhode Island", "Texas", "Vermont", "Virginia", "West Virginia", "Wisconsin"],
+        "is-venemous": true,
+        "bites-humans": false,
+        "bite-intensity": "no effect - very mild",
+        "female":{
+            "minSizemm": 10,
+            "maxSizemm": 31
+        },
+        "male":{
+            "minSizemm": 11,
+            "maxSizemm": 24
+        }
+    },
+    "tuberculated-crab-spider":{
+        "id": 46,
+        "species": "Tmarus angulatus",
+        "common-name": "Tuberculated Crab Spider",
+        "primary-colors": ["brown", "gray", "tan"],
+        "sighted-countries":["Canada", "United States"],
+        "sighted-states":["Alabama", "New Hampshire", "New York", "Ohio", "Texas"],
+        "is-venemous": false,
+        "bites-humans": true,
+        "bite-intensity": "no effect",
+        "female":{
+            "minSizemm": 4.5,
+            "maxSizemm": 7
+        },
+        "male":{
+            "minSizemm": 3,
+            "maxSizemm": 5
+        }
+    },
+    "broadfaced-sac-spider":{
+        "id": 47,
+        "species": "Trachelas tranquillus",
+        "common-name": "Broadfaced Sac Spider",
+        "primary-colors": ["brown", "gray", "tan", "gray", "orange"],
+        "sighted-countries": ["United States"],
+        "sighted-states": ["Connecticut", "Florida", "Illinois", "Indiana", "Kansas", "Louisiana", "Massachusetts", "Michigan", "Missouri", "New Hampshire", "New Jersey", "New York", "Ohio", "Pennsylvania", "Virginia", "Washington D.C."],
+        "is-venemous": false,
+        "bites-humans": true,
+        "bite-intensity": "no effect - mild",
+        "female":{
+            "minSizemm": 7,
+            "maxSizemm": 10
+        },
+        "male":{
+            "minSizemm": 5,
+            "maxSizemm": 6
+        }
+    },
+    "tutelina-elegans":{
+        "id": 48,
+        "species": "Tutelina elegans",
+        "common-name": "Tutelina Elegans",
+        "primary-colors":["black", "brown", "gray", "white", "yellow", "green", "purple", "orange", "pink"],
+        "sighted-countries":["United States"],
+        "sighted-states":["Alabama", "Ohio"],
+        "is-venemous": true,
+        "bites-humans": false,
+        "bite-intensity": "no effect - mild",
+        "female":{
+            "minSizemm": 5,
+            "maxSizemm": 6
+        },
+        "male":{
+            "minSizemm": 4.5,
+            "maxSizemm": 5
+        }
+    },
+    "feather-legged-orb-weaver":{
+        "id": 49,
+        "species": "Uloborus glomosus",
+        "common-name": "Featherlegged Orbweaver",
+        "primary-colors": ["black", "brown", "tan", "white", "yellow", "orange"],
+        "sighted-countries":["Canada", "United States"],
+        "sighted-states":["Alabama", "Ohio", "Wisconsin"],
+        "is-venemous": false,
+        "bites-humans": false,
+        "bite-intensity": "no effect",
+        "female":{
+            "minSizemm": 4,
+            "maxSizemm": 5
+        },
+        "male":{
+            "minSizemm": 3,
+            "maxSizemm": 4
+        }
+    },
+    "northern-black-widow":{
+        "id": 50,
+        "species": "Latrodectus variolus",
+        "common-name": "Northern Black Widow",
+        "primary-colors": ["black", "brown", "white", "red", "orange"],
+        "sighted-countries":["United States"],
+        "sighted-states": ["Arkansas", "Georgia", "Illinois", "Maryland", "Massachusetts", "Mississippi", "Missouri", "North Carolina", "Pennsylvania", "Rhode Island", "Tennessee"],
+        "is-venemous": true,
+        "bites-humans": true,
+        "bite-intensity": "severe",
+        "female":{
+            "minSizemm": 9,
+            "maxSizemm": 11
+        },
+        "male":{
+            "minSizemm": 4,
+            "maxSizemm": 5
+        }
+    },
+    "brown-recluse":{
+        "id": 51,
+        "species": "Loxosceles reclusa",
+        "common-name": "Brown Recluse",
+        "primary-colors": ["brown", "tan", "orange"],
+        "sighted-countries": ["United States"],
+        "sighted-states": ["Alabama", "Arkansas", "Florida", "Georgia", "Illinois", "Indiana", "Kansas", "Kentucky", "Mississippi", "Missouri", "Oklahoma", "Tennessee", "Texas", "Virginia"],
+        "is-venemous": true,
+        "bites-humans": true,
+        "bite-intensity": "severe",
+        "female":{
+            "minSizemm": 6,
+            "maxSizemm": 20
+        },
+        "male":{
+            "minSizemm": 6,
+            "maxSizemm": 20
+        }
+    },
+    "bagheera-kiplingi":{
+        "id": 52,
+        "species": "Bagheera kiplingi",
+        "common-name": "Bagheera kiplingi",
+        "primary-colors": ["black", "brown", "yellow", "red"],
+        "is-venemous": false,
+        "bites-humans": false,
+        "bite-intensity": "no effect",
+        "sighted-countries": ["Mexico", "Costa Rica", "Guatemala"],
+        "sighted-states": null,
+        "female":{
+            "minSizemm": 6,
+            "maxSizemm": 20
+        },
+        "male":{
+            "minSizemm": 6,
+            "maxSizemm": 20
+        }
+    }
+}
