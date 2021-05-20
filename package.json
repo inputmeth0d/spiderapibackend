@@ -10,6 +10,11 @@
     "type": "git",
     "url": "git+https://github.com/inputmeth0d/spiderapi.git"
   },
+   "keywords": [
+    "API",
+    "Spiders",
+    "Elements"
+  ]
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "nodemon ./index.js",
