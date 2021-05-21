@@ -1,5 +1,5 @@
 {
-    "black_lace_weaver":{
+    "black-lace-weaver":{
         "id":1,
         "species": "Amaurobius ferox",
         "common-name": "Black Lace-Weaver",
@@ -18,7 +18,7 @@
             "maxSizemm": 10
         }
     },
-    "cross_orb_weaver":{
+    "cross-orb-weaver":{
         "id":2,
         "species": "Araneus diadematus",
         "common-name": "Cross Orb-weaver",
@@ -37,7 +37,7 @@
             "maxSizemm": 13
         }
     },
-    "marbled_orb_weaver":{
+    "marbled-orb-weaver":{
         "id":3,
         "species": "Araneus marmoreus",
         "common-name": "Marbled Orb-Weaver",
@@ -56,7 +56,7 @@
             "maxSize": 9
         }
     },
-    "butterfly_orb_weaver":{
+    "butterfly-orb-weaver":{
         "id":4,
         "species": "Araneus pegnia",
         "common-name": "Araneus pegnia",
@@ -75,7 +75,7 @@
             "maxSizemm": 9
         }
     },
-    "Shamrock_orb_weaver":{
+    "Shamrock-orb-weaver":{
         "id": 5,
         "species": "Araneus trifolium",
         "common-name": "Shamrock Orb-weaver",
@@ -94,7 +94,7 @@
             "maxSizemm": 13
         }
     },
-    "black_and_yellow_garden_spider":{
+    "black-and-yellow-garden-spider":{
         "id": 6,
         "species": "Argiope aurantia",
         "common-name": "Black and yellow garden spider",
@@ -113,7 +113,7 @@
             "maxSizemm": 9
         }
     },
-    "banded_garden_spider":{
+    "banded-garden-spider":{
         "id": 7,
         "species":"argiope trfasciata",
         "common-name": "Banded garden spider",
@@ -151,7 +151,7 @@
             "maxSizemm": 10 
         }
     },
-    "long_legged_sac_spider":{
+    "long-legged-sac-spider":{
         "id": 9,
         "species": "cheiracanthium mildei",
         "common-name": "long legged sac spider",
@@ -170,7 +170,7 @@
             "maxSizemm": 10
         }
     },
-    "sylvana_jumping_spider":{
+    "sylvana-jumping-spider":{
         "id": 10,
         "species": "Colonus syvanus",
         "common-name": "Sylvana Jumping Spider",
@@ -208,7 +208,7 @@
             "maxSizemm": 3.3
         }
     },
-    "striped_fishing_spider":{
+    "striped-fishing-spider":{
         "id": 12,
         "species": "Dolomedes scriptus",
         "common-name": "Striped Fishing Spider",
@@ -227,7 +227,7 @@
             "maxSizemm": 13
         }
     },
-    "dark_fishing_spider":{
+    "dark-fishing-spider":{
         "id":13,
         "species": "Dolomedes tenebrosus", 
         "common-name": "Dark Fishing Spider",
@@ -246,7 +246,7 @@
             "maxSizemm": 12
         }
     },
-    "six_spotted_fishing_spider":{
+    "six-spotted-fishing-spider":{
         "id": 14,
         "species": "Dolomedes triton",
         "common-name": "Six-spotted Fishing Spider",
@@ -265,7 +265,7 @@
             "maxSizemm":13
         }
     },
-    "woodlouse_hunter":{
+    "woodlouse-hunter":{
         "id": 15,
         "species": "Dysdera crocata",
         "common-name":"Woodlouse Hunter",
@@ -284,7 +284,7 @@
             "maxSizemm": 10
         }
     },
-    "bowl_and_doily_weaver":{
+    "bowl-and-doily-weaver":{
         "id": 16,
         "species": "Frontinella pyramitela",
         "common-name": "Bowl and Doily Weaver",
@@ -322,7 +322,7 @@
             "maxSizemm": 4.1
         }
     },
-    "hentz_jumping_spider":{
+    "hentz-jumping-spider":{
         "id": 18,
         "species": "Hentzia palmarum",
         "common-name":"Hentz Jumping Spider",
@@ -379,7 +379,7 @@
             "maxSizemm": 100
         }
     },
-    "garden_ghost_spider":{
+    "garden-ghost-spider":{
         "id": 21,
         "species":"hibana gracilis",
         "common-name":"Garden Ghost Spider",
