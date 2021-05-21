@@ -11,8 +11,6 @@ module.exports = app;
 	
 const server = app.listen(process.env.PORT || 5000, () => {
   const port = server.address().port;
-  res.writeHead(200, { 'content-type': 'text/html' })
-  fs.createReadStream('index.html').pipe(res)
   console.log(`Express is working on port ${port}`);
 });
 	
