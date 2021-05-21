@@ -5,8 +5,10 @@ const express = require("express");
 const app = express();
 const cors=require('cors');
 	
-app.listen(process.env.PORT,
-	() => console.log("Server Start at 5000 Port"));
+const server = app.listen(process.env.PORT || 5000, () => {
+  const port = server.address().port;
+  console.log(`Express is working on port ${port}`);
+});
 	
 app.use(express.static('public'));
 app.use(cors());
