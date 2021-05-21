@@ -4,6 +4,10 @@ var spiders = JSON.parse(data);
 const express = require("express");
 const app = express();
 const cors=require('cors');
+
+app.use('/', express.static('html'));
+
+module.exports = app;
 	
 const server = app.listen(process.env.PORT || 5000, () => {
   const port = server.address().port;
