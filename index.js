@@ -17,7 +17,13 @@ const server = app.listen(process.env.PORT || 5000, () => {
 app.use(express.static('public'));
 app.use(cors());
 
+app.get('', homePage);
 
+function homePage(request, response) {
+	response.writeHead(200, { 'content-type': 'text/html' })
+  fs.createReadStream('index.html').pipe(response)
+})
+}
 
 // when get request is made, alldata() is called
 app.get('/spiders', alldata);
