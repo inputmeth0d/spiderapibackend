@@ -3,6 +3,7 @@
         "id":1,
         "species": "Amaurobius ferox",
         "common-name": "Black Lace-Weaver",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Amaurobius_ferox_17003168.jpg/220px-Amaurobius_ferox_17003168.jpg",
         "primary-colors": ["black", "white", "brown"],
         "sighted-countries": ["Canada", "Ireland", "United Kingdom", "United States"],
         "sighted-states": ["Connecticut", "Illinois", "Indiana", "Maryland", "Massachusetts", "Michigan", "New Hampshire", "New Jersey", "New York", "North Carolina", "Ohio", "Pennsylvania", "Virginia", "West Virginia", "Wisconsin"],
