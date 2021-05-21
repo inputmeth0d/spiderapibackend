@@ -26,8 +26,7 @@ app.get('/spiders/:spider/', searchSpider);
 
 function searchSpider(request, response) {
 	var word = request.params.spider;
-	word = word.charAt(0).toUpperCase()
-		+ word.slice(1).toLowerCase();
+	
 	
 	if(spiders[word]) {
 		var reply = spiders[word];		
