@@ -11,20 +11,15 @@ module.exports = app;
 	
 const server = app.listen(process.env.PORT || 5000, () => {
   const port = server.address().port;
+  res.writeHead(200, { 'content-type': 'text/html' })
+  fs.createReadStream('index.html').pipe(res)
   console.log(`Express is working on port ${port}`);
 });
 	
 app.use(express.static('public'));
 app.use(cors());
 
-app.get('', homePage);
 
-function homePage(request, response) {
-const server = http.createServer((req, res) => {
-  res.writeHead(200, { 'content-type': 'text/html' })
-  fs.createReadStream('index.html').pipe(res)
-})	
-}
 
 // when get request is made, alldata() is called
 app.get('/spiders', alldata);
