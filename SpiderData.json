@@ -62,7 +62,7 @@
     "butterfly-orb-weaver":{
         "id":4,
         "species": "Araneus pegnia",
-        "common-name": "Araneus pegnia",
+        "common-name": "Butterfly Orb Weaver",
         "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Araneus_pegnia%2C_Woodbridge%2C_Virginia.jpg/409px-Araneus_pegnia%2C_Woodbridge%2C_Virginia.jpg",
         "primary-colors": ["black", "brown", "gray", "tan", "white", "yellow", "red", "pink"],
         "sighted-countries": ["Mexico", "United States"],
